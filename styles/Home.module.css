@@ -19,6 +19,7 @@
 }
 
 .title,
+.header,
 .description {
   text-align: center;
 }
@@ -56,4 +57,36 @@
 
 .applicant div:last-child {
   border-right: 0;
+}
+
+.form {
+  width: 25%;
+  padding-left: 0px;
+  padding-bottom: 50px;
+}
+
+.form-section {
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.form-label {
+  float: left;
+}
+
+.form-text-input {
+  text-align: right;
+}
+
+.form-checkbox-input {
+  text-align: left;
+}
+
+.submit-button {
+  padding-top: 10px;
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
 }
